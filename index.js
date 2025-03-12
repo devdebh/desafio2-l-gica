@@ -1,44 +1,46 @@
 let nivel = ""
-let VitoriaEDerrota = quantificar(20,7)
+let vitoriaEDerrota = quantificar(80,7)
 
-
-
-
-function quantificar(vitorias, derrotas) //ok
+function quantificar(vitorias, derrotas) 
 { 
     return vitorias - derrotas
 
 }
 
 
-    if (VitoriaEDerrota >= 10)
-    {
-        nivel = "Ferro"
-    }
+if (vitoriaEDerrota  >= 10)
+{
+    nivel = "Ferro"
+}
 
-    else if (VitoriaEDerrota < 11 && VitoriaEDerrota <= 20)
-    {
-        nivel = "Bronze"
-    }
+else if (vitoriaEDerrota  < 11 && vitoriaEDerrota <= 20)
+{
+    nivel = "Bronze"
+}
 
-    else if (VitoriaEDerrota < 21 && VitoriaEDerrota <= 50)
-    {
-        nivel = "Prata"
-    }
+else if (vitoriaEDerrota  < 21 && vitoriaEDerrota  <= 50)
+{
+    nivel = "Prata"
+}
 
-    else if (VitoriaEDerrota < 51 && VitoriaEDerrota <= 80)
-    {
-        nivel = "Ouro"
-    }
-    
-    else if (VitoriaEDerrota < 81 && VitoriaEDerrota <= 90)
-    {
-        nivel = "Diamante"
-    }
+else if (vitoriaEDerrota   < 51 && vitoriaEDerrota  <= 80)
+{
+    nivel = "Ouro"
+}
 
-    else (VitoriaEDerrota < 91 && VitoriaEDerrota <= 100);
-    {
-        nivel = "Lendário"
-    }
+else if (vitoriaEDerrota  < 81 && vitoriaEDerrota <= 90)
+{
+    nivel = "Diamante"
+}
 
-    console.log("O Herói tem de saldo de " + VitoriaEDerrota + " está no nível: " + nivel)
+else if (vitoriaEDerrota < 91 && vitoriaEDerrota <= 100)
+{
+    nivel = "Lendário"
+}
+
+else (vitoriaEDerrota > 101)
+{
+    nivel = "Imortal"
+}
+
+console.log("O Herói tem de saldo de " + vitoriaEDerrota + " está no nível: " + nivel)
