@@ -1,7 +1,7 @@
 let level = ""
 let victoriesAndDefeats = quantify(20,7)
 
-function quantify(victories, defeats) //ok
+function quantify(victories, defeats)
 { 
     return victories - defeats
 }
