@@ -1,0 +1,19 @@
+let level = ""
+let victoriesAndDefeats = quantify(20,7)
+
+function quantify(victories, defeats) //ok
+{ 
+    return victories - defeats
+}
+
+if (victoriesAndDefeats <= 10) nivel = "Iron"
+else if (victoriesAndDefeats <= 11 && victoriesAndDefeats <= 20) level = "Bronze"
+else if (victoriesAndDefeats <= 21 && victoriesAndDefeats <= 50) level = "Silver"
+else if (victoriesAndDefeats <= 51 && victoriesAndDefeats <= 80) level = "Gold"
+else if (victoriesAndDefeats <= 81 && victoriesAndDefeats <= 90) level  = "Diamond"
+else if (victoriesAndDefeats <= 91 && victoriesAndDefeats <= 100) level = "Legendary"
+else (victoriesAndDefeats > 101 ); level = "Immortal";
+
+console.log("O Herói tem de saldo de " + victoriesAndDefeats + " está no nível de: " + level)
+
+// o código foi escrito em inglês, para que dessa forma eu possa demonstrar meu conhecimento e habilidade para com a língua em momentos pra sintaxe.
