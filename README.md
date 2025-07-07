@@ -76,6 +76,11 @@ Sinta-se à vontade para comentar ou usar como base para treinar sua própria l�
 
 ---
 
-🚀 Feito com prática, foco e 💜 por Déborah Nascimento, heroína ![Badge Nível OURO](https://img.shields.io/badge/NÍVEL-OURO-%23D36EF5?style=flat&logoColor=white&labelColor=%23FF69B4)
-
 ![Assinatura](./nivel-ouro.png)
+Heroína ![Badge Nível OURO](https://img.shields.io/badge/NÍVEL-OURO-%23D36EF5?style=flat&logoColor=white&labelColor=%23FF69B4)
+
+---
+
+🚀 Feito com prática, foco e 💜 por Déborah Nascimento.
+
+
